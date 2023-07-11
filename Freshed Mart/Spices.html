@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="Fruits Style.css">
+    <title>FreshedMart</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: image ();
+        }
+        
+        .container {
+            max-width: 100%;
+            height: 1400px;
+            margin: 0 auto;
+        }
+        
+        .header {
+            display: cover;
+            width: 99.99%;
+            height: 30%;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0px;
+            border-radius: 5px;
+            background-image: url(Banners/Spices.jpg);
+            color: white;
+        }
+        
+        .logo {
+            position: initial;
+        }
+        
+        .nav {
+            display: flex;
+            list-style-type: style 0;
+        }
+        
+        .nav li {
+            margin-left: 50px;
+        }
+        
+        .nav a {
+            color: rgb(6, 14, 7);
+            text-decoration: none;
+            background-color: #ffffff;
+            border-radius: 2px;
+        }
+        
+        .main {
+            display: flex;
+            margin: 30px;
+        }
+        
+        .sidebar {
+            width: 100px;
+            height: 210px;
+            background-color: #fff;
+            padding: 40px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        
+        .sidebar h3 {
+            margin-top: 0;
+        }
+        
+        .sidebar ul {
+            list-style: none;
+            padding-left: 0;
+            padding-right: 30px;
+        }
+        
+        .sidebar li {
+            margin-bottom: 15px;
+        }
+        
+        .sidebar a {
+            color: #4caf50;
+            font-size: large;
+            font-weight: bold;
+            text-transform: uppercase;
+            text-decoration: double;
+        }
+        
+        .content {
+            flex-grow: 1;
+            margin-left: 10px;
+            background-color: #ffffff;
+            padding: 50px;
+            box-shadow: 0 2px 9px rgba(0, 0, 0, 0.1);
+        }
+        
+        .content h2 {
+            margin-top: 0;
+        }
+        
+        .product {
+            display: flex;
+            margin-bottom: 60px;
+        }
+        
+        .product img {
+            width: 300px;
+            height: 200px;
+            object-fit: cover;
+        }
+        
+        .product-info {
+            margin-left: 100px;
+        }
+        
+        .product-name {
+            font-size: 35px;
+            font-weight: bold;
+            color: #2b812e;
+        }
+        
+        .product-price {
+            font-size: 35px;
+            padding-top: 6px;
+            padding-bottom: 6px;
+            color: #000000;
+        }
+        
+        .product-rating {
+            display: flex;
+            align-items: normal;
+        }
+        
+        .product-rating span {
+            margin-left: 20px;
+            padding-bottom: 10px;
+            color: #000000;
+        }
+        
+        .product-button {
+            display: inline-block;
+            padding: 10px 10px;
+            background-color: #207a21;
+            color: rgb(255, 255, 255);
+            border-radius: 16px;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+        
+        .comment-section {
+            margin-top: 20px;
+        }
+        
+        .comment-form {
+            display: flex;
+            align-items: center;
+        }
+        
+        .comment-input {
+            flex-grow: 1;
+            padding: 10px;
+            border: 1px solid #ccc;
+        }
+        
+        .comment-submit {
+            padding: 12.5px;
+            background-color: #16b921 caf50;
+            text-transform: uppercase;
+            color: rgb(0, 0, 0);
+            border-radius: 5px;
+            border: none;
+            cursor: pointer;
+        }
+        
+        .comment-list {
+            list-style: none;
+            padding-left: 0;
+        }
+        
+        .comment-item {
+            display: flex;
+            align-items: center;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        
+        .comment-avatar {
+            width: 80px;
+            height: 80px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            border-radius: 20%;
+            object-fit: cover
+        }
+        
+        .comment-content {
+            margin-left: 15px;
+        }
+        
+        .comment-author {
+            font-weight: bold;
+            color: #444;
+            position: relative;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo"><img src="pictures/001 FreshedMart Logo.png" alt="logo"></div>
+            <ul class="nav">
+                <li><a href="Explore.html">Explore</a></li>
+                <li><a href="Special.html">Special</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+                <li><a href="index.html">HOME</a></li>
+
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="sidebar">
+                <h3>Categories</h3>
+                <ul>
+                    <li><a href="Fruits.html">Fruits</a></li>
+                    <li><a href="Vegetables.html">Vegetables</a></li>
+                    <li><a href="Dairy.html">Dairy</a></li>
+                    <li><a href="Meat.html">Meat</a></li>
+                    <li><a href="Bakery.html">Bakery</a></li>
+                    <li><a href="Spices.html">Spices</a></li>
+                </ul>
+            </div>
+
+            <div class="content">
+                <h2>Spices</h2>
+
+                <div class="product">
+                    <img src="pictures/Spices/360_F_243690485_yK28LyuSs9vzwzE8LuYfHEUBCtxboOlc.jpg" alt="Cinnamon">
+                    <div class="product-info">
+                        <div class="product-name">Cinnamon</div>
+                        <div class="product-price">$1.99</div>
+                        <div class="product-rating">⭐⭐⭐⭐⭐<span>(0 Reviews)</span></div>
+                        <a href="Add To Cart.html" class="product-button">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="product">
+                    <img src="pictures/Spices/800px_COLOURBOX1177687.jpg" alt="Chili">
+                    <div class="product-info">
+                        <div class="product-name">Chili</div>
+                        <div class="product-price">$1.99</div>
+                        <div class="product-rating">⭐⭐⭐⭐⭐<span>(0 Reviews)</span></div>
+                        <a href="Add To Cart.html" class="product-button">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="product">
+                    <img src="pictures/Spices/800px_COLOURBOX3910208.jpg" alt="Star Anise">
+                    <div class="product-info">
+                        <div class="product-name">Star Anise</div>
+                        <div class="product-price">$1.99</div>
+                        <div class="product-rating">⭐⭐⭐⭐⭐<span>(0 Reviews)</span></div>
+                        <a href="Add To Cart.html" class="product-button">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="product">
+                    <img src="pictures/Spices/cumin-wooden-scoop-white-background_525574-10726.jpg" alt="Cumin">
+                    <div class="product-info">
+                        <div class="product-name">Cumin</div>
+                        <div class="product-price">$1.99</div>
+                        <div class="product-rating">⭐⭐⭐⭐⭐<span>(0 Reviews)</span></div>
+                        <a href="Add To Cart.html" class="product-button">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="product">
+                    <img src="pictures/Spices/depositphotos_92621040-stock-photo-spice-cloves-on-white-background.jpg" alt="Cloves">
+                    <div class="product-info">
+                        <div class="product-name">Cloves</div>
+                        <div class="product-price">$1.99</div>
+                        <div class="product-rating">⭐⭐⭐⭐⭐<span>(0 Reviews)</span></div>
+                        <a href="Add To Cart.html" class="product-button">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="product">
+                    <img src="pictures/Spices/fresh-coriander-leaves-white-background_319514-5275.jpg" alt="Coriander">
+                    <div class="product-info">
+                        <div class="product-name">Coriander</div>
+                        <div class="product-price">$1.99</div>
+                        <div class="product-rating">⭐⭐⭐⭐⭐<span>(0 Reviews)</span></div>
+                        <a href="Add To Cart.html" class="product-button">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="product">
+                    <img src="pictures/Spices/ginger-white-background-depth-field_253984-2691.jpg" alt="Ginger">
+                    <div class="product-info">
+                        <div class="product-name">Ginger</div>
+                        <div class="product-price">$1.99</div>
+                        <div class="product-rating">⭐⭐⭐⭐⭐<span>(0 Reviews)</span></div>
+                        <a href="Add To Cart.html" class="product-button">Add to Cart</a>
+                    </div>
+                </div>
+
+
+
+                <div class="comment-section">
+                    <h3>Leave a comment</h3>
+                    <form class="comment-form">
+                        <input type="text" class="comment-input" placeholder="Write your comments here...">
+                        <button type="submit" class="comment-submit">Send</button>
+                    </form>
+
+                    <!-- Comment list -->
+
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="Fruits Style.css">
+    <title>FreshedMart</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: image ();
+        }
+        
+        .container {
+            max-width: 100%;
+            height: 1400px;
+            margin: 0 auto;
+        }
+        
+        .header {
+            display: cover;
+            width: 99.99%;
+            height: 30%;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0px;
+            border-radius: 5px;
+            background-image: url(Banners/fruits\ header.jpg);
+            color: white;
+        }
+        
+        .logo {
+            position: initial;
+        }
+        
+        .nav {
+            display: flex;
+            list-style-type: style 0;
+        }
+        
+        .nav li {
+            margin-left: 50px;
+        }
+        
+        .nav a {
+            color: rgb(6, 14, 7);
+            text-decoration: none;
+            background-color: #ffffff;
+            border-radius: 2px;
+        }
+        
+        .main {
+            display: flex;
+            margin: 30px;
+        }
+        
+        .sidebar {
+            width: 100px;
+            height: 210px;
+            background-color: #fff;
+            padding: 40px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        
+        .sidebar h3 {
+            margin-top: 0;
+        }
+        
+        .sidebar ul {
+            list-style: none;
+            padding-left: 0;
+            padding-right: 30px;
+        }
+        
+        .sidebar li {
+            margin-bottom: 15px;
+        }
+        
+        .sidebar a {
+            color: #4caf50;
+            font-size: large;
+            font-weight: bold;
+            text-transform: uppercase;
+            text-decoration: double;
+        }
+        
+        .content {
+            flex-grow: 1;
+            margin-left: 10px;
+            background-color: #ffffff;
+            padding: 50px;
+            box-shadow: 0 2px 9px rgba(0, 0, 0, 0.1);
+        }
+        
+        .content h2 {
+            margin-top: 0;
+        }
+        
+        .product {
+            display: flex;
+            margin-bottom: 60px;
+        }
+        
+        .product img {
+            width: 300px;
+            height: 200px;
+            object-fit: cover;
+        }
+        
+        .product-info {
+            margin-left: 100px;
+        }
+        
+        .product-name {
+            font-size: 35px;
+            font-weight: bold;
+            color: #2b812e;
+        }
+        
+        .product-price {
+            font-size: 35px;
+            padding-top: 6px;
+            padding-bottom: 6px;
+            color: #000000;
+        }
+        
+        .product-rating {
+            display: flex;
+            align-items: normal;
+        }
+        
+        .product-rating span {
+            margin-left: 20px;
+            padding-bottom: 10px;
+            color: #000000;
+        }
+        
+        .product-button {
+            display: inline-block;
+            padding: 10px 10px;
+            background-color: #207a21;
+            color: rgb(255, 255, 255);
+            border-radius: 16px;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+        
+        .comment-section {
+            margin-top: 20px;
+        }
+        
+        .comment-form {
+            display: flex;
+            align-items: center;
+        }
+        
+        .comment-input {
+            flex-grow: 1;
+            padding: 10px;
+            border: 1px solid #ccc;
+        }
+        
+        .comment-submit {
+            padding: 12.5px;
+            background-color: #16b921 caf50;
+            text-transform: uppercase;
+            color: rgb(12, 94, 19);
+            border-radius: 5px;
+            border: none;
+            cursor: pointer;
+        }
+        
+        .comment-list {
+            list-style: none;
+            padding-left: 0;
+        }
+        
+        .comment-item {
+            display: flex;
+            align-items: center;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        
+        .comment-avatar {
+            width: 80px;
+            height: 80px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            border-radius: 20%;
+            object-fit: cover
+        }
+        
+        .comment-content {
+            margin-left: 15px;
+        }
+        
+        .comment-author {
+            font-weight: bold;
+            color: #444;
+            position: relative;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo"><img src="pictures/001 FreshedMart Logo.png" alt="logo"></div>
+            <ul class="nav">
+                <li><a href="Explore.html">Explore</a></li>
+                <li><a href="Special.html">Special</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+                <li><a href="index.html">HOME</a></li>
+
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="sidebar">
+                <h3>Categories</h3>
+                <ul>
+                    <li><a href="Fruits.html">Fruits</a></li>
+                    <li><a href="Vegetables.html">Vegetables</a></li>
+                    <li><a href="Dairy.html">Dairy</a></li>
+                    <li><a href="Meat.html">Meat</a></li>
+                    <li><a href="Bakery.html">Bakery</a></li>
+                    <li><a href="Spices.html">Spices</a></li>
+                </ul>
+            </div>
+
+            <div class="content">
+                <h2>Fruits</h2>
+                <div class="product">
+                    <img src="pictures\1681040063_Depositphotos_11489545_S.jpg" alt="Apple">
+                    <div class="product-info">
+                        <div class="product-name">Apples</div>
+                        <div class="product-price">$1.99</div>
+                        <div class="product-rating">⭐⭐⭐⭐⭐<span>(1200 Reviews)</span></div>
+                        <a href="Add To Cart.html" class="product-button">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="product">
+                    <img src="pictures/albaricoque-grupal-sobre-fondo-blanco_146936-960.jpg" alt="Apricot">
+                    <div class="product-info">
+                        <div class="product-name">Apricot</div>
+                        <div class="product-price">$1.77</div>
+                        <div class="product-rating">⭐⭐⭐⭐⭐<span>(0 Reviews)</span></div>
+                        <a href="Add To Cart.html" class="product-button">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="product">
+                    <img src="pictures/Avocado-sliced-white-background_525574-12870.jpg" alt="Avocados">
+                    <div class="product-info">
+                        <div class="product-name">Avocados</div>
+                        <div class="product-price">$5.00</div>
+                        <div class="product-rating">⭐⭐⭐⭐⭐<span>(230 Reviews)</span></div>
+                        <a href="Add To Cart.html" class="product-button">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="product">
+                    <img src="pictures\360_F_81632784_dywiaX7xqRp7KDqMluwgqlkykvz3aK03.jpg" alt="Bananas">
+                    <div class="product-info">
+                        <div class="product-name">Bananas</div>
+                        <div class="product-price">$8.00</div>
+                        <div class="product-rating">⭐⭐⭐⭐⭐<span>(770 Reviews)</span></div>
+                        <a href="Add To Cart.html" class="product-button">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="product">
+                    <img src="pictures/blood-orange-fruit-isolated-white-background_403166-1381.jpg" alt="Blood Oranges">
+                    <div class="product-info">
+                        <div class="product-name">Blood Oranges</div>
+                        <div class="product-price">$4.00</div>
+                        <div class="product-rating">⭐⭐⭐⭐⭐<span>(800 Reviews)</span></div>
+                        <a href="Add To Cart.html" class="product-button">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="product">
+                    <img src="pictures/boysenberries-isolated-white-background-generative-ai_846485-22002.jpg" alt="Boysenberries">
+                    <div class="product-info">
+                        <div class="product-name">Boysenberries</div>
+                        <div class="product-price">$0.99</div>
+                        <div class="product-rating">⭐⭐⭐⭐⭐<span>(38 Reviews)</span></div>
+                        <a href="Add To Cart.html" class="product-button">Add to Cart</a>
+                    </div>
+                </div>
+
+
+                <div class="product">
+                    <img src="pictures/cantaloupe-melon-white-background_62678-1095.jpg" alt="Cantaloup Melons">
+                    <div class="product-info">
+                        <div class="product-name">Cantaloup Melons</div>
+                        <div class="product-price">$1.55</div>
+                        <div class="product-rating">⭐⭐⭐⭐⭐<span>(0 reviews)</span></div>
+                        <a href="Add To Cart.html" class="product-button">Add to Cart</a>
+                    </div>
+                </div>
+
+
+                <div class="product">
+                    <img src="pictures/carambola-isolated-white-background-starfruits-heap_88281-1956.jpg" alt="Carambolas (Star Fruits)">
+                    <div class="product-info">
+                        <div class="product-name">Carambolas</div>
+                        <div class="product-price">$1.99</div>
+                        <div class="product-rating">⭐⭐⭐⭐⭐<span>(62 reviews)</span></div>
+                        <a href="Add To Cart.html" class="product-button">Add to Cart</a>
+                    </div>
+                </div>
+
+
+                <div class="product">
+                    <img src="pictures/coconuts-with-leaf-isolated-white-background_55883-94.jpg" alt="Cocunuts">
+                    <div class="product-info">
+                        <div class="product-name">Cocunuts</div>
+                        <div class="product-price">$1.00</div>
+                        <div class="product-rating">⭐⭐⭐⭐⭐<span>(66 reviews)</span></div>
+                        <a href="Add To Cart.html" class="product-button">Add to Cart</a>
+                    </div>
+                </div>
+
+
+                <div class="product">
+                    <img src="pictures/dates-white-background_404043-1241.jpg" alt="Dates">
+                    <div class="product-info">
+                        <div class="product-name">Dates</div>
+                        <div class="product-price">$100/kg</div>
+                        <div class="product-rating">⭐⭐⭐⭐⭐<span>(600K reviews)</span></div>
+                        <a href="Add To Cart.html" class="product-button">Add to Cart</a>
+                    </div>
+                </div>
+
+
+                <div class="product">
+                    <img src="pictures/dragon-fruit-isolated-white-background_167862-4521.jpg" alt="Dragon Fruits">
+                    <div class="product-info">
+                        <div class="product-name">Dragon Fruits</div>
+                        <div class="product-price">$0.99</div>
+                        <div class="product-rating">⭐⭐⭐⭐⭐<span>(16 reviews)</span></div>
+                        <a href="Add To Cart.html" class="product-button">Add to Cart</a>
+                    </div>
+                </div>
+
+
+                <div class="product">
+                    <img src="pictures/durian-fruit-with-slices-leaves-isolated-white-background_252965-988.jpg" alt="Durian Fruits">
+                    <div class="product-info">
+                        <div class="product-name">Durian Fruits</div>
+                        <div class="product-price">$1.00</div>
+                        <div class="product-rating">⭐⭐⭐⭐⭐<span>(15 reviews)</span></div>
+                        <a href="Add To Cart.html" class="product-button">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="product">
+                    <img src="pictures/fig-fruit-with-ripe-red-half-isolated-white-background_161301-3853.jpg" alt="Fig Fruits">
+                    <div class="product-info">
+                        <div class="product-name">Fig Fruits</div>
+                        <div class="product-price">$2.00</div>
+                        <div class="product-rating">⭐⭐⭐⭐⭐<span>(32 Reviews)</span></div>
+                        <a href="Add To Cart.html" class="product-button">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="product">
+                    <img src="pictures\40909403-pomegranate-isolated-on-white-background.jpg" alt="Pomgranate">
+                    <div class="product-info">
+                        <div class="product-name">Pomegranate</div>
+                        <div class="product-price">$1.88</div>
+                        <div class="product-rating">⭐⭐⭐⭐⭐<span>(20 reviews)</span></div>
+                        <a href="Add To Cart.html" class="product-button">Add to Cart</a>
+                    </div>
+                </div>
+
+
+                <div class="comment-section">
+                    <h3>Leave a comment</h3>
+                    <form class="comment-form">
+                        <input type="text" class="comment-input" placeholder="Write your comments here...">
+                        <button type="submit" class="comment-submit">Send</button>
+                    </form>
+
+                    <!-- Add more comments here -->
+                    </ul>
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
